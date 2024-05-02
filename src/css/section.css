@@ -1,0 +1,176 @@
+.background{
+    padding: 0.5rem;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center; ;
+}
+
+
+.tituloNotificacao{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.quantidadeNotificacao{
+    background-color: hsl(219, 85%, 26%);
+    width: 2.5rem;
+    height: 2.2rem;
+    border-radius: 9px;
+    position: relative;
+    position: absolute;
+    left: 10rem;
+}
+
+.textoquantidadeNotificacao{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    left: 0.8rem ;
+    top: 0.3rem;
+    margin: 0;
+    
+}
+
+.marcaTodos{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 1rem;
+    color: hsl(219, 12%, 42%);
+    position: absolute;
+    left: 14rem;
+    cursor: pointer;
+}
+
+
+
+.imgUsuario{
+    height: 40%;
+    margin-right: 1rem;
+}
+
+#imgUsuario2{
+    height: 18%;
+}
+
+
+#cardNotificacao{
+    height: 60rem;
+}
+
+#divNotificacao1{
+    margin: 12px;
+    height: 11.5rem;
+
+}
+
+
+.divNotificacao{
+    margin: 12px;
+    height: 5rem;
+    display: flex;
+    border-radius: 7px;
+    position: relative;
+    padding: 1rem;
+    background-color: #e9ffe4;
+}
+.conteudo{
+    display: flex;
+    position: absolute;
+    padding: 10px;
+}
+.notif{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nomeUsuario{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 900;
+    font-size: 1rem;
+    margin: 0;
+    display: flex;
+}
+
+.descricaoNotificacao{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0;
+    color: hsl(219, 12%, 42%);
+}
+
+.dataNotificacao{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: 3px;
+    color: hsl(218, 6%, 65%);
+
+}
+
+.msgnotificacao {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 0.8rem;
+    width: 27rem;
+    height: 11rem;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 0.5rem;
+    padding: 0.9rem;
+    color: hsl(219, 12%, 42%);
+    margin-bottom: 1rem;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.link{
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 900;
+    font-size: 0.8rem;
+    color: hsl(219, 66%, 45%);
+    text-decoration: none;
+
+}
+
+
+
+.sinalizandoNotificacao{
+    height: 0.3rem;
+    width: 0.3rem;
+    border-radius: 10px;
+    background-color: hsl(1, 90%, 64%);
+    margin-top: 0.5rem;
+    
+}
+.apagando{
+    display: none;
+}
+
+.semBackground{
+    background-color: rgb(255, 255, 255);
+}
+.backgroud{
+    background-color: rgb(232, 236, 248);
+}
+@media only screen and (max-width: 600px) {
+    #divNotificacao1{
+        margin: 12px;
+        height: 17rem;
+    
+    }
+    .msgnotificacao{
+        width: 13rem; 
+    }
+  }
+
+
+
+
